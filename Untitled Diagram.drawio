@@ -1,17 +1,93 @@
-<mxfile host="app.diagrams.net" modified="2020-12-03T06:28:22.495Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="Rre0-mlpAlJPY2Eohbax" version="13.10.6" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-03T06:55:42.534Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15" etag="x9m_n5vOvgH0x4JJiK1H" version="13.10.6" type="github">
   <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
-    <mxGraphModel dx="1351" dy="946" grid="0" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="662" grid="0" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Cbq1dcXYgktHrHffWFOS-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=29;" edge="1" parent="1" source="Cbq1dcXYgktHrHffWFOS-1" target="Cbq1dcXYgktHrHffWFOS-2">
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-9" value="#" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;fontSize=17;" vertex="1" parent="1">
+          <mxGeometry x="295" y="163" width="657" height="653" as="geometry">
+            <mxRectangle x="295" y="163" width="30" height="157" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-10" value="中台" style="swimlane;html=1;startSize=20;" vertex="1" parent="Cbq1dcXYgktHrHffWFOS-9">
+          <mxGeometry x="20" width="122" height="653" as="geometry" />
+        </mxCell>
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-21" value="业务模型&lt;br&gt;任务执行" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="Cbq1dcXYgktHrHffWFOS-10">
+          <mxGeometry x="11" y="54" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-23" value="预警、催办&lt;br&gt;结果集" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;fontSize=17;" vertex="1" parent="Cbq1dcXYgktHrHffWFOS-10">
+          <mxGeometry x="29" y="194" width="66" height="103" as="geometry" />
+        </mxCell>
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="Cbq1dcXYgktHrHffWFOS-10" source="Cbq1dcXYgktHrHffWFOS-21" target="Cbq1dcXYgktHrHffWFOS-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Cbq1dcXYgktHrHffWFOS-1" value="中台预警任务" style="rounded=0;whiteSpace=wrap;html=1;fontSize=29;" vertex="1" parent="1">
-          <mxGeometry x="82" y="35" width="226" height="60" as="geometry" />
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-11" value="省利润中心组" style="swimlane;html=1;startSize=20;" vertex="1" parent="Cbq1dcXYgktHrHffWFOS-9">
+          <mxGeometry x="142" width="146" height="653" as="geometry" />
         </mxCell>
-        <mxCell id="Cbq1dcXYgktHrHffWFOS-2" value="预警结果集" style="shape=cylinder;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;rounded=0;fontSize=17;" vertex="1" parent="1">
-          <mxGeometry x="165" y="165" width="60" height="80" as="geometry" />
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-26" value="预警、催办&lt;br&gt;下发" style="whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="Cbq1dcXYgktHrHffWFOS-11">
+          <mxGeometry x="15" y="102" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-20" value="利润中心组" style="swimlane;html=1;startSize=20;" vertex="1" parent="Cbq1dcXYgktHrHffWFOS-9">
+          <mxGeometry x="288" width="189" height="653" as="geometry" />
+        </mxCell>
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-33" value="…………" style="whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="Cbq1dcXYgktHrHffWFOS-20">
+          <mxGeometry x="28" y="535" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-37" value="随州公司" style="whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="Cbq1dcXYgktHrHffWFOS-20">
+          <mxGeometry x="28" y="243" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-39" value="本部" style="whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="Cbq1dcXYgktHrHffWFOS-20">
+          <mxGeometry x="34.5" y="42" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;" edge="1" parent="Cbq1dcXYgktHrHffWFOS-9" source="Cbq1dcXYgktHrHffWFOS-23" target="Cbq1dcXYgktHrHffWFOS-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="Cbq1dcXYgktHrHffWFOS-9" source="Cbq1dcXYgktHrHffWFOS-26" target="Cbq1dcXYgktHrHffWFOS-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-54" value="省下发到利润中心组，系统&lt;br&gt;自动下发到利润中心" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;fontColor=#0000FF;" vertex="1" connectable="0" parent="Cbq1dcXYgktHrHffWFOS-34">
+          <mxGeometry x="0.1646" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=17;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="Cbq1dcXYgktHrHffWFOS-9" source="Cbq1dcXYgktHrHffWFOS-26" target="Cbq1dcXYgktHrHffWFOS-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=17;fontColor=#33FF33;labelBackgroundColor=#33FF33;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="Cbq1dcXYgktHrHffWFOS-9" source="Cbq1dcXYgktHrHffWFOS-26" target="Cbq1dcXYgktHrHffWFOS-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#000000;fontSize=17;fontColor=#33FF33;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="Cbq1dcXYgktHrHffWFOS-9" source="Cbq1dcXYgktHrHffWFOS-39" target="Cbq1dcXYgktHrHffWFOS-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#000000;fontSize=17;fontColor=#33FF33;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="Cbq1dcXYgktHrHffWFOS-9" source="Cbq1dcXYgktHrHffWFOS-37" target="Cbq1dcXYgktHrHffWFOS-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-12" value="利润中心" style="swimlane;html=1;startSize=20;" vertex="1" parent="Cbq1dcXYgktHrHffWFOS-9">
+          <mxGeometry x="477" width="180" height="653" as="geometry" />
+        </mxCell>
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-44" value="公司本部" style="whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="Cbq1dcXYgktHrHffWFOS-12">
+          <mxGeometry x="30.5" y="42" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-46" value="黄石供电公司本部" style="whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="Cbq1dcXYgktHrHffWFOS-12">
+          <mxGeometry x="33" y="162" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-49" value="阳新县&lt;br&gt;供电公司" style="whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="Cbq1dcXYgktHrHffWFOS-12">
+          <mxGeometry x="33" y="315" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-48" value="大冶市&lt;br&gt;供电公司" style="whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="Cbq1dcXYgktHrHffWFOS-12">
+          <mxGeometry x="30.5" y="232" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-50" value="…………" style="whiteSpace=wrap;html=1;fontSize=17;" vertex="1" parent="Cbq1dcXYgktHrHffWFOS-12">
+          <mxGeometry x="39" y="535" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#000000;fontSize=17;fontColor=#33FF33;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="Cbq1dcXYgktHrHffWFOS-9" source="Cbq1dcXYgktHrHffWFOS-33" target="Cbq1dcXYgktHrHffWFOS-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#000000;fontSize=17;fontColor=#33FF33;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="Cbq1dcXYgktHrHffWFOS-9" source="Cbq1dcXYgktHrHffWFOS-37" target="Cbq1dcXYgktHrHffWFOS-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Cbq1dcXYgktHrHffWFOS-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=#000000;fontSize=17;fontColor=#33FF33;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="Cbq1dcXYgktHrHffWFOS-9" source="Cbq1dcXYgktHrHffWFOS-37" target="Cbq1dcXYgktHrHffWFOS-49">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
